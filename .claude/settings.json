@@ -1,0 +1,7 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git -C /Users/johntran/Desktop/personalsite remote add origin https://github.com/johntran041/Personal-Website.git)"
+    ]
+  }
+}
