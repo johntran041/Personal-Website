@@ -3,30 +3,33 @@ import type { Project } from "@/types";
 const projects: Project[] = [
   {
     title: "PRISM",
-    tags: ["AI", "Full-Stack", "Next.js"],
+    tags: ["Next.js", "TypeScript", "PostgreSQL", "pgvector", "Gemini"],
     description:
-      "AI-powered project documentation tool. Generates structured docs from a single form — with streaming AI, a commit-style diff flow, and pgvector semantic search.",
+      "AI-powered documentation assistant with semantic search, auto-generated docs, and intelligent context retrieval for engineering teams.",
     link: "https://prism-pm.vercel.app/",
-    linkLabel: "Live Demo",
+    linkLabel: "View live",
     image: "/images/projects/prism.png",
+    status: null,
   },
   {
     title: "LevelUp",
-    tags: ["Full-Stack", "Node.js", "MongoDB"],
+    tags: ["Node.js", "MongoDB", "Socket.IO", "Stripe"],
     description:
-      "Learning management system with real-time messaging, role-based access, and a dual payment system using Stripe and custom Coin logic.",
+      "Virtual learning platform with real-time collaboration, video sessions, and Stripe-powered subscription management for educators.",
     link: "https://group-project-cosc3060-2025a-bug-hunters.onrender.com/",
-    linkLabel: "Live Demo",
+    linkLabel: "View live",
     image: "/images/projects/levelup.png",
+    status: null,
   },
   {
-    title: "Irohana Match",
-    tags: ["Frontend", "Internship"],
+    title: "CDSS (Clinical Decision Support System)",
+    tags: ["Next.js", "FastAPI", "PostgreSQL", "Gemini"],
     description:
-      "Candidate management app built at HOPEE, a Japanese outsourcing firm. Developed production UI components for a live internal recruitment platform.",
+      "AI-enabled Clinical Decision Support System for hypertension management, built in collaboration with AstraZeneca.",
     link: null,
     linkLabel: null,
-    image: "/images/projects/irohana.png",
+    image: "/images/projects/cdss.png",
+    status: "In Progress",
   },
 ];
 

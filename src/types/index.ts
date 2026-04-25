@@ -5,6 +5,7 @@ export interface Project {
   link: string | null;
   linkLabel: string | null;
   image: string;
+  status?: string | null;
 }
 
 export interface Experience {
@@ -12,6 +13,8 @@ export interface Experience {
   period: string;
   role: string;
   summary: string;
+  bullets?: string[];
+  tags?: string[];
 }
 
 export interface Meta {
